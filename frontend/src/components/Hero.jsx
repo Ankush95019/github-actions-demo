@@ -5,7 +5,7 @@ const Hero = () => {
         <span className="hero-pill">New • Automated deployment ready</span>
         <h1>Build, test, and ship faster with GitHub Actions</h1>
         <p>
-          Launch your React app with confidence using a streamlined CI/CD
+          Hi, Launch your React app with confidence using a streamlined CI/CD
           pipeline that keeps every release consistent, visible, and reliable.
         </p>
         <div className="hero-actions">
