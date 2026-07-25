@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - main
+  pull_request:
+    branches:
+      - main
 
 jobs:
   build:
@@ -25,12 +28,16 @@ jobs:
           cache-dependency-path: frontend/package-lock.json
 
       - name: Install Dependencies
-        run: npm install
+        run: npm ci
+
+      - name: Lint React App
+        run: npm run lint
 
       - name: Build React App
         run: npm run build
 
       - name: Upload Build Artifact
+        if: github.event_name == 'push'
         uses: actions/upload-artifact@v4
         with:
           name: react-build
