@@ -7,6 +7,8 @@ const Hero = () => {
         <p>
           Hi, Launch your React app with confidence using a streamlined CI/CD
           pipeline that keeps every release consistent, visible, and reliable.
+          Learn how to automate your workflow and ship faster with GitHub
+          Actions.
         </p>
         <div className="hero-actions">
           <a href="#services" className="button primary">
