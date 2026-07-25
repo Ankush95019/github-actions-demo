@@ -11,7 +11,8 @@ const Hero = () => {
           Actions. To GitHub Actions, you can automate your software development
           workflows directly in your GitHub repository. You can create workflows
           that build and test every pull request to your repository, or deploy
-          merged pull requests to production.
+          merged pull requests to production. Highly customizable, GitHub
+          Actions allows you to create workflows that suit your project’s needs.
         </p>
         <div className="hero-actions">
           <a href="#services" className="button primary">
