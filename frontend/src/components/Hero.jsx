@@ -8,7 +8,10 @@ const Hero = () => {
           Hi, Launch your React app with confidence using a streamlined CI/CD
           pipeline that keeps every release consistent, visible, and reliable.
           Learn how to automate your workflow and ship faster with GitHub
-          Actions.
+          Actions. To GitHub Actions, you can automate your software development
+          workflows directly in your GitHub repository. You can create workflows
+          that build and test every pull request to your repository, or deploy
+          merged pull requests to production.
         </p>
         <div className="hero-actions">
           <a href="#services" className="button primary">
